@@ -1,0 +1,268 @@
+.Container {
+  /* display: flex; */
+  background-color: #f2f1f0;
+  text-align: center;
+  align-content: center;
+  /* height: 100%; 
+  width: 100%;
+  text-align: center; */
+}
+
+.Banner {
+  width: 100%;
+  text-align: center;
+}
+
+/* .header {
+  background-color: #e3360d;
+  padding: 10px;
+} */
+
+.Tahoma {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #e3370f;
+}
+
+.cardsContainer {
+  padding: 30px;
+  direction: column; /* row*/
+  display: inline-flex;
+  border-radius: 10px;
+  height: 100%;
+  text-align: center;
+}
+
+.header {
+  background-color: #e3360d;
+  padding: 10px;
+  /* position:; */
+}
+
+.pokeball {
+  transition: all;
+  animation-duration: 500;
+  rotate: 180;
+}
+
+.SearchField {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #dedede;
+  border: solid #f2f1f0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 17px;
+  margin: 15px;
+}
+
+.btn-search {
+  background-color: #e3360d;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  padding: 9px;
+  margin: 1rem;
+  width: 100px;
+}
+
+.btn-search:hover {
+  background-color: white;
+  color: #e3360d;
+  transform: translateY(-4px);
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.img {
+  margin: auto;
+}
+
+.pokeCard:hover {
+  cursor: pointer;
+  transform: translateY(-4px);
+  transition-duration: 0.2s;
+  box-shadow: 10px 10px 10px 10px #d9d9d9;
+  /* transform: rotateY(180deg); */
+}
+
+.Loading {
+  font-size: 35px;
+}
+
+.pokemonName {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  background-color: white;
+  padding: 5px;
+
+  /* change color by type*/
+}
+
+.pokemonType {
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  padding: 5px;
+  /* color: #e3d244; */
+  font-weight: bolder;
+}
+
+.pokeCard {
+  background-color: white; /*#d6d5d4;*/
+  height: 350px; /*alto */
+  width: 350px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.pokeInfo {
+  background-color: white;
+}
+
+.GoBackButton {
+  letter-spacing: 1px;
+  font-weight: bolder;
+  padding: 10px;
+  background-color: #e3360d;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 10px;
+  border-radius: 5px;
+  border: none;
+  margin: 1rem;
+  width: 80px;
+}
+
+.GoBackButton:hover {
+  background-color: white;
+  color: #e3360d;
+  transform: translateY(-4px);
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.pokemonCardInfo {
+  /*border-radius: 50px;*/
+  background-color: #ffffff; /*#d6d5d4;*/
+  height: 500px; /*alto */
+  width: 700px;
+}
+
+.statsMainView {
+  height: 350px;
+  width: 350px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.statsContainer {
+  height: 250px; /*alto */
+  width: 500px;
+  display: inline-flex;
+}
+
+.PokemonBackground {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  width: calc(100% / 2);
+}
+
+.stats {
+  width: calc(100% / 2);
+}
+
+.pokemonStats {
+  height: calc(30%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #e3370f;
+  color: white;
+  letter-spacing: 2px;
+  border-top-right-radius: 9px;
+}
+
+.whiteBackground {
+  background-color: #f9f9fa;
+  border-bottom-right-radius: 9px;
+  height: calc(70%);
+}
+
+.paddingCards {
+  padding: 50px;
+}
+
+.statsLetters {
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding: 5px;
+  padding-top: 10px;
+}
+
+.letters {
+  color: #e3360d;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.PokemonNotFound {
+  align-items: center;
+  display: flex;
+  background-color: #e3360d;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  border-radius: 5px;
+  justify-content: center;
+  padding: 10px;
+  width: 300px;
+  height: 50px;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #f2f1f0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+/* 
+.modal1 {
+  overflow: hidden;
+} */
+.modal {
+  align-items: center;
+  display: flex;
+  background-color: white;
+  color: #e3360d;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  border-radius: 5px;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+/* 
+.modalContent {
+  background-color: white;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  width: 40%;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  justify-content: center;
+} */
